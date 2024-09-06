@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba 1</title>
+    <style>
+        *{
+            text-align: center;
+            font-size: 25px;
+        }
+        #bloque{
+            background-color: rgb(61, 55, 55);
+            color: wheat;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 0 0 20px 0;
+        }
+        #bloque h1{
+            font-size: 40px;
+        }
+        #bloque2{
+            background-color: rgb(61, 55, 55);
+            color: wheat;
+            border-radius: 10px;
+            padding: 20px 10px 10px 10px;
+            margin: 20px 0 20px 0;
+        }
+        button{
+            width: 700px;
+            border-radius: 20px;
+            padding: 6px;
+            background-color: sandybrown;
+        }
+        button:hover{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div id="bloque">
+        <h1>Prueba N°1 - Operadores</h1>
+        <div class="info">
+            <h2>En JavaScript, los operadores son símbolos que permiten realizar operaciones sobre valores y variables, facilitando la manipulación de datos en el código. 
+                Estos incluyen operadores aritméticos, lógicos, comparativos y muchos otros, cada uno con una función específica para el procesamiento y comparación de 
+                información.</h2>
+        </div>
+    </div>
+    <script>
+        let a = 10;
+        let b = 5;
+        let Suma = a + b;
+        let esMayor = a > b;
+
+        document.write("Suma : "+Suma);
+        document.write("<br>");
+        document.write("¿<strong>A</strong> es mayor que <strong>B</strong>? : "+esMayor);
+
+        if(esMayor = "true"){
+            alert("Verdadero");
+        }
+    </script>
+    <div id="bloque2">
+        <button onclick="location.href='index.html'"> Regresar a menu Index</button>
+        <h2>Taller de programacion web I - Alejandro Valderrama Chumbes</h2>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prueba 7</title>
+    <style>
+        *{
+            text-align: center;
+            font-size: 25px;
+        }
+        #bloque{
+            background-color: rgb(61, 55, 55);
+            color: wheat;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 0 0 20px 0;
+        }
+        #bloque h1{
+            font-size: 40px;
+        }
+        #bloque2{
+            background-color: rgb(61, 55, 55);
+            color: wheat;
+            border-radius: 10px;
+            padding: 20px 10px 10px 10px;
+            margin: 20px 0 20px 0;
+        }
+        button{
+            width: 700px;
+            border-radius: 20px;
+            padding: 6px;
+            background-color: sandybrown;
+        }
+        button:hover{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div id="bloque">
+        <h1>Prueba N°7 - Funciones en JavaScript</h1>
+        <div class="info">
+            <h2>
+                En JavaScript, las funciones son bloques de código reutilizables que realizan tareas específicas y pueden ser invocadas en cualquier momento. 
+                Permiten modularizar y organizar el código, facilitando su mantenimiento y reutilización.</h2>
+        </div>
+    </div>
+    <script>
+        function saludar(nombre) {
+        return "Hola, " + nombre + "!";
+        }
+        let mensaje = saludar("Ana");
+        alert(mensaje); 
+    </script>
+    <div id="bloque2">
+        <button onclick="location.href='index.html'"> Regresar a menu Index</button>
+        <h2>Taller de programacion web I - Alejandro Valderrama Chumbes</h2>
+    </div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <style>
+        *{
+            text-align: center;
+            font-size: 25px;
+        }
+        #bloque{
+            background-color: rgb(61, 55, 55);
+            color: wheat;
+            border-radius: 10px;
+            padding: 20px 10px 10px 10px;
+            margin: 0 0 20px 0;
+        }
+        #bloque h1{
+            font-size: 40px;
+        }
+        #bloque2{
+            background-color: rgb(61, 55, 55);
+            color: wheat;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 20px 0 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="bloque">
+        <h1>Ejercicio N°4 - Uso de switch</h1>
+        <div class="info">
+            <h2>En JavaScript, el operador `switch` permite realizar múltiples comparaciones en una sola estructura de control, 
+                evaluando una expresión y ejecutando el bloque de código correspondiente al caso que coincide. Es útil para 
+                simplificar la lógica de decisiones complejas que involucran múltiples condiciones.</h2>
+        </div>
+    </div>
+    <script>
+        let mes = prompt("Seleccione un numero del 1 al 12: ");
+        let Mes = parseInt(mes);
+        let MesSelected;
+
+        switch (Mes) {
+            case 1:
+                MesSelected = "Has seleccionado el mes de enero.";
+                break;
+            case 2:
+                MesSelected = "Has seleccionado el mes de febrero.";
+                break;
+            case 3:
+                MesSelected = "Has seleccionado el mes de marzo.";
+                break;
+            case 4:
+                MesSelected = "Has seleccionado el mes de abril.";
+                break;
+            case 5:
+                MesSelected = "Has seleccionado el mes de mayo.";
+                break;
+            case 6:
+                MesSelected = "Has seleccionado el mes de junio.";
+                break;
+            case 7:
+                MesSelected = "Has seleccionado el mes de julio.";
+                break;
+            case 8:
+                MesSelected = "Has seleccionado el mes de agosto.";
+                break;
+            case 9:
+                MesSelected = "Has seleccionado el mes de septiembre.";
+                break;
+            case 10:
+                MesSelected = "Has seleccionado el mes de octubre.";
+                break;
+            case 11:
+                MesSelected = "Has seleccionado el mes de noviembre.";
+                break;
+            case 12:
+                MesSelected = "Has seleccionado el mes de diciembre.";
+                break;
+            default:
+                MesSelected = "Error: Digito no valido.";
+        }
+
+        document.write(MesSelected);
+    </script> 
+    <div id="bloque2">
+        <button onclick="location.href='index.html'"> Regresar a menu Index</button>
+        <h2>Taller de programacion web I - Alejandro Valderrama Chumbes</h2>
+    </div>
+</body>
+</html>

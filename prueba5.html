@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prueba 5</title>
+    <style>
+        *{
+            text-align: center;
+            font-size: 25px;
+        }
+        #bloque{
+            background-color: rgb(61, 55, 55);
+            color: wheat;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 0 0 20px 0;
+        }
+        #bloque h1{
+            font-size: 40px;
+        }
+        #bloque2{
+            background-color: rgb(61, 55, 55);
+            color: wheat;
+            border-radius: 10px;
+            padding: 20px 10px 10px 10px;
+            margin: 20px 0 20px 0;
+        }
+        button{
+            width: 700px;
+            border-radius: 20px;
+            padding: 6px;
+            background-color: sandybrown;
+        }
+        button:hover{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div id="bloque">
+        <h1>Prueba N°5 - Uso de Do-While en JavaScript</h1>
+        <div class="info">
+            <h2>
+                En JavaScript, el bucle do...while ejecuta un bloque de código al menos una vez y luego repite la ejecución mientras una condición 
+                especificada sea verdadera. Esta estructura asegura que el código se ejecute antes de verificar la condición.</h2>
+        </div>
+    </div>
+    <script>
+        let contador = 1;
+
+        do{
+            document.write("Contador: "+ contador + "<br>");
+            contador++; 
+        }while (contador <= 5);
+
+    </script>
+    <div id="bloque2">
+        <button onclick="location.href='index.html'"> Regresar a menu Index</button>
+        <h2>Taller de programacion web I - Alejandro Valderrama Chumbes</h2>
+    </div>
+</body>
+</html>
